@@ -18,6 +18,8 @@
 		<java.version>11</java.version>
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
 		<org.lombok.version>1.18.20</org.lombok.version>
+		<com.iter.financial-dto>0.1</com.iter.financial-dto>
+		<com.iter.error-handling>0.1</com.iter.error-handling>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -28,7 +30,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -44,6 +45,16 @@
 			<groupId>org.mapstruct</groupId>
 			<artifactId>mapstruct</artifactId>
 			<version>${org.mapstruct.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.iter</groupId>
+			<artifactId>financial-dto</artifactId>
+			<version>${com.iter.financial-dto}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.iter</groupId>
+			<artifactId>error-handling</artifactId>
+			<version>${com.iter.error-handling}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
